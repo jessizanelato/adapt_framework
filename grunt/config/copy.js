@@ -233,7 +233,7 @@ module.exports = function (grunt, options) {
         }
     };
 
-    if (grunt.option("outputdir")) return mandatoryTasks;
+    //if (grunt.option("outputdir")) return mandatoryTasks;
 
     return _.extend({}, nonServerTasks, mandatoryTasks);
 

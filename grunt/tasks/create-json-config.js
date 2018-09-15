@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
         var jsonext = grunt.config('jsonext');
 
-        var sourcedir = grunt.option('outputdir') || grunt.config('sourcedir');
+        var sourcedir = grunt.config('sourcedir');
 
         var configJson = grunt.file.readJSON(path.join(sourcedir, 'course/config.' + jsonext));
 
